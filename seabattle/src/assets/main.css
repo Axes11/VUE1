@@ -7,29 +7,24 @@
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+*{
+  font-family: "Madimi One", sans-serif;
+
+  user-select: none;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.button{
+  border-radius: 100px;
+  padding: 10px 20px;
+  background-color: #D85B02;
+  border: 2px solid #D85B02;
+  color: white;
+
+  transition: all .15s;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.button:hover{
+  background-color: transparent;
+  color: #D85B02;
+  cursor: pointer;
 }

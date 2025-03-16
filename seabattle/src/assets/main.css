@@ -13,6 +13,10 @@
   user-select: none;
 }
 
+.black{
+  color: #474747;
+}
+
 .button{
   border-radius: 100px;
   padding: 10px 20px;
@@ -27,4 +31,19 @@
   background-color: transparent;
   color: #D85B02;
   cursor: pointer;
+}
+
+.input{
+  padding: 10px 20px;
+  color: #474747;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+}
+
+.input::placeholder{
+  color: #C2C2C2;
+  font-size: 16px;
 }

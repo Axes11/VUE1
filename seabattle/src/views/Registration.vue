@@ -11,17 +11,17 @@
       <div class="registration flex flex-col items-center justify-between gap-5">
         <DesignShip1 class="ship"/>
         <div class="flex flex-col gap-3">
-          <input class="input" placeholder="NAME..." type="text" name="" id="">
-          <input class="input" placeholder="E-MAIL..." type="text" name="" id="">
-          <input class="input" placeholder="PASSWORD..." type="text" name="" id="">
+          <input class="input" placeholder="NAME..." type="text" name="name" id="reg__name">
+          <input class="input" placeholder="E-MAIL..." type="text" name="email" id="reg__email">
+          <input class="input" placeholder="PASSWORD..." type="text" name="password" id="reg__pass">
         </div>
         <button class="button w-full">REGISTER</button>
       </div>
       <div class="login flex flex-col items-center justify-between">
         <DesignShip2 class="ship"/>
         <div class="flex flex-col gap-3">
-          <input class="input" placeholder="NAME..." type="text" name="" id="">
-          <input class="input" placeholder="PASSWORD..." type="text" name="" id="">
+          <input class="input" placeholder="NAME..." type="text" name="name" id="log_name">
+          <input class="input" placeholder="PASSWORD..." type="text" name="pass" id="log__pass">
         </div>
         <button class="button w-full">LOGIN</button>
       </div>

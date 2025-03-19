@@ -17,6 +17,10 @@
   color: #474747;
 }
 
+.white{
+  color: white;
+}
+
 .button{
   border-radius: 100px;
   padding: 10px 20px;

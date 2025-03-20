@@ -12,10 +12,10 @@
     </div>
     <div class="flex flex-col gap-5">
       <div class="decor__line"></div>
-      <p class="text-2xl white">Games : {{ games }}</p>
-      <p class="text-2xl white">Wins : {{ wins }}</p>
-      <p class="text-2xl white">Lose : {{ lose }}</p>
-      <p class="text-2xl white">Surrenders : {{ surrenders }}</p>
+      <p class="text-xl white">Games : {{ games }}</p>
+      <p class="text-xl white">Wins : {{ wins }}</p>
+      <p class="text-xl white">Lose : {{ lose }}</p>
+      <p class="text-xl white">Surrenders : {{ surrenders }}</p>
     </div>
   </div>
 </template>

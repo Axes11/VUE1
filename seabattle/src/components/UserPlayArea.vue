@@ -18,12 +18,12 @@
 
   width: 100%;
   height: 100%;
-  background-color: #ddd;
-  border: 1px solid #ccc;
+  background-color: #035BFF;
   transition: background-color 0.3s;
 }
 
 .area__cell:hover {
-  background-color: #bbb;
+  background-color: #2c77ff;
+  cursor: pointer;
 }
 </style>

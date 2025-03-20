@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <img src="/arrowdef.png" alt="">
+    <img src="/arrowdef.png" alt="Arr">
   </div>
 </template>
 

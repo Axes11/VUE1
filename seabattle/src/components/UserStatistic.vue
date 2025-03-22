@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex items-center flex-col">
+  <div class="flex items-center flex-col userstatistic-block">
     <div class="flex items-center flex-col gap-5">
       <div class="avatar">
         <img :src=avatarSrc alt="Avatar">
@@ -35,6 +35,9 @@
     border: 3px solid #252525;
 
     object-fit: cover;
+  }
+  .userstatistic-block{
+    min-width: 200px;
   }
   .decor__line{
     width: 100%;

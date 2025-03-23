@@ -1,7 +1,42 @@
 <script setup lang="ts">
+  import { ref } from 'vue';
   import DesignShip1 from "@/components/icons/DesignShip1.vue";
   import DesignShip2 from "@/components/icons/DesignShip2.vue";
   import Header from "@/components/Header.vue";
+
+  const name = ref('');
+  const email = ref('');
+  const password = ref('');
+  const errorMessage = ref('');
+
+  const handleRegistration = async () => {
+    if (!name.value || !email.value || !password.value) {
+      errorMessage.value = 'Please fill in all fields!';
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: name.value,
+          email: email.value,
+          password: password.value,
+        }),
+      });
+
+      if (response.ok) {
+        alert('Registration successful!');
+      } else {
+        errorMessage.value = 'Registration failed. Please try again.';
+      }
+    } catch (error) {
+      errorMessage.value = 'An error occurred. Please try again later.';
+    }
+  };
 </script>
 
 <template>
